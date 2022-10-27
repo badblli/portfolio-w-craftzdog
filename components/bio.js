@@ -10,3 +10,11 @@ export const BioYear = styled.span`
   font-weight: bold;
   margin-right: 1em;
 `
+export const TimeLine = styled(Box)`
+  transform: rotate(90deg);
+  display: inline-block;
+  position: relative;
+  left: 3.5em;
+
+  
+`

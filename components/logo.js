@@ -13,11 +13,11 @@ const LogoBox = styled.span`
   padding: 10px;
 
   > svg {
-    transition: 200ms ease;
+    transition: 1000ms ease;
   }
 
   &:hover > svg {
-    transform: rotate(20deg);
+    transform: rotate(720deg);
   }
 `
 
@@ -33,7 +33,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            ./badblli
           </Text>
         </LogoBox>
       </a>

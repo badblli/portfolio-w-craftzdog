@@ -29,7 +29,10 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Takuya Matsuyama" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Takuya Matsuyama - Homepage</title>
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="badblli" data-description="Support me on Buy me a coffee!" data-message="thx u for visiting, now u can buy me a coffee ☕" data-color="
+orange
+" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+        <title>./badblli - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
